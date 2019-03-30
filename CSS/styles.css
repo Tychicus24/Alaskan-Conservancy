@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #centeredpage {
+    width: 100%;
+    height: 1400px;
+    position: relative;
+  }
+  
+  .navbar1 {
+    z-index: 9999999999999;
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    font-style: oblique;
+    font-size: 150%;
+  }
+  
+  .background {
+    height: 1400px;
+    width: 100%;
+  }
+  
+  .heading {
+    color: white;
+    text-align: center;
+    z-index: 9999999999999;
+    position: absolute;
+    top: 75px;
+    left: 30%;
+    right: 33%;
+    font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: oblique;
+    font-size: 220%;
+  /*   font-kerning: normal; not understood by codepen*/
+  }
+  
+  .logo {
+    position: absolute;
+    top: 30px;
+    right: 25px;
+    width: 30%;
+    height: auto;
+    z-index: 2;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  /*   background-color: 0; replaced with transparent*/ 
+    background-color: transparent;
+    line-height: 500%;
+  }
+  
+  li {
+    float: left;
+   }
+  
+  li a {
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+  }
+  
+  li a:hover {
+    background-color: #1a5276;
+  }
+  
+  .navbar2 {
+    width: 250px;
+    display: block;
+    z-index: 9999999999999;
+    position: absolute;
+    bottom: 75px;
+    right: 50px;
+    font-style: oblique;
+    font-size: 150%;
+  }
+  /* {
+    position: absolute;
+    top: 1200;
+    right: -100px;
+    height: 10px;
+    width: 25%
+    z-index: 2;
+  } */
+  
+  #footer {
+    width: 100%;
+  }
+  
+  .seal {
+    position: absolute;
+    bottom: 65px;
+    top: 1050px;
+    left: 65px;
+    width: 10%;
+    z-index: 9999999999999;
+  }
+  
+  .copyright {
+    position: fixed;
+    left: 40%;
+    right: 40%;
+    z-index: 9999999999999;
+    bottom: 15px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
